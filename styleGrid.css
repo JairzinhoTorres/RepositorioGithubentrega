@@ -1,6 +1,5 @@
 body {
   background-color: #5abbb9;
-  color: red;
 }
 
 * {
@@ -163,12 +162,17 @@ footer {
   background-color: #48aaa8;
 }
 /* ----------------------------------------------- Parte de arriba -------------------------------------------------------- */
+/* ----------------------------------------------- sumando boostrap -------------------------------------------------------- */
 .header{
-  background-color: #3b9b99;
-  color:#DD0303
+  background-color: #48AAA8 !important;
+  z-index: 3;
+}
+.navbar{
+  background-color: #48AAA8 !important;
 }
 .nav-link:hover{
-  color: red !important; 
+  background-color: #146463 !important; 
+  color: #fff !important;
 }
 header {
   position: sticky;
@@ -177,12 +181,9 @@ header {
 
 .navegacion {
   display: flex;
-  background-color: #5abbb9;
+  background-color: #48AAA8 !important;
   justify-content: space-between;
-  height: 100px;
   align-items: center;
-  margin: 0 50px;
-  padding: 0 10px;
 }
 
 .navegacion ul {
@@ -202,6 +203,7 @@ header {
 .navegacion li .buscador {
   width: 30px;
   height: 30px;
+  border-radius: 10%;
 }
 
 .navegacion li:hover {
@@ -212,6 +214,7 @@ header {
 .navegacion li a {
   text-decoration: none;
   color: #fff;
+  border-radius: 15%;
 }
 /* ----------------------------------------------- footer -------------------------------------------------------- */
 
@@ -242,6 +245,20 @@ header {
   padding: 10px;
 }
 
+/* ----------------------------------------------- Card en index -------------------------------------------------------- */
+.card_section{
+  display: flex;
+  justify-content: center;
+  margin: 75px;
+}
+card_section
+.imagen_de_la_card{
+  width: 100%;
+  padding: auto;
+}
+.colores_card{
+  background-color: #5ABBB9;
+}
 /* ----------------------------------------------- Modificacion ventana contacto -------------------------------------------------------- */
 
 .background-contacto {
@@ -264,7 +281,7 @@ header {
     #5a8382 100%,
     rgba(243, 243, 243, 1) 100%
   );
-  color: white;
+  color: #fff;
   padding: 50px;
   margin: 0 auto;
   width: 300px;
@@ -499,4 +516,13 @@ header {
   .ProductosSeccionProductos{
     margin: none;
   }
+   /* ----------------------------------------------- Arreglando el header -------------------------------------------------------- */
 }
+@media screen and (min-width: 990px) {
+  .navegacion {
+    height: 100px;
+    margin: 0 50px;
+    padding: 0 10px;
+
+  }
+  }
