@@ -1,5 +1,5 @@
 body {
-  background-color: #5abbb9;
+  background-color: #5eb6b5;
 }
 
 * {
@@ -163,17 +163,20 @@ footer {
 }
 /* ----------------------------------------------- Parte de arriba -------------------------------------------------------- */
 /* ----------------------------------------------- sumando boostrap -------------------------------------------------------- */
-.header{
+.header {
   background-color: #48AAA8 !important;
   z-index: 3;
 }
-.navbar{
+
+.navbar {
   background-color: #48AAA8 !important;
 }
-.nav-link:hover{
-  background-color: #146463 !important; 
+
+.nav-link:hover {
+  background-color: #146463 !important;
   color: #fff !important;
 }
+
 header {
   position: sticky;
   top: 0%;
@@ -216,8 +219,8 @@ header {
   color: #fff;
   border-radius: 15%;
 }
-/* ----------------------------------------------- footer -------------------------------------------------------- */
 
+/* ----------------------------------------------- footer -------------------------------------------------------- */
 .final {
   display: flex;
   flex-direction: column-reverse;
@@ -246,55 +249,47 @@ header {
 }
 
 /* ----------------------------------------------- Card en index -------------------------------------------------------- */
-.card_section{
+.card_section {
   display: flex;
   justify-content: center;
   margin: 75px;
 }
-card_section
-.imagen_de_la_card{
+
+.imagen_de_la_card {
   width: 100%;
   padding: auto;
 }
-.colores_card{
+
+.colores_card {
   background-color: #5ABBB9;
 }
-/* ----------------------------------------------- Modificacion ventana contacto -------------------------------------------------------- */
 
+/* ----------------------------------------------- Modificacion ventana contacto -------------------------------------------------------- */
 .background-contacto {
   background: #5bb3b1;
-  background: linear-gradient(
-    0deg,
-    #3b9b99 0%,
-    #146463 36%,
-    #5a8382 100%,
-    rgba(243, 243, 243, 1) 100%
-  );
+  background: linear-gradient(0deg, #3b9b99 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
   padding-top: 20px;
 }
+
 .formcontacto {
   background: #5bb3b1;
-  background: linear-gradient(
-    0deg,
-    #5bb3b1 0%,
-    #146463 36%,
-    #5a8382 100%,
-    rgba(243, 243, 243, 1) 100%
-  );
+  background: linear-gradient(0deg, #5bb3b1 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
   color: #fff;
   padding: 50px;
   margin: 0 auto;
   width: 300px;
   box-shadow: 3px 3px 10px #5bb3b1;
 }
+
 .formcontacto div {
   padding: 15px;
 }
+
 .formcontacto input {
   border: #fff;
 }
-/* ----------------------------------------------- Servicios -------------------------------------------------------- */
 
+/* ----------------------------------------------- Servicios -------------------------------------------------------- */
 .contenedor {
   display: flex;
   align-items: center;
@@ -328,31 +323,29 @@ card_section
   border-radius: 50px;
   background-color: #519695;
   color: #fff;
-  transition: width 3s;
-  transition-delay: 1s;
+  /*transition: width 3s;
+  transition-delay: 1s;*/
 }
+
 .contenedorBotones {
   display: flex;
 }
+
 .contenedor div.izquierda input:hover {
   width: 300px;
 }
+
 .contenedor div.derecha {
   width: 55%;
-  transition: width 2s, height 2s, transform 2s;
-}
-.contenedor div.derecha:hover {
-  width: 100px;
-  height: 100px;
-  transform: rotate(180deg);
+  /* transition: width 2s, height 2s, transform 2s;*/
 }
 
 .contenedor img {
   width: 100%;
   /*argin: 0 40px;*/
   height: 700px;
-  object-fit: cover;
-  object-position: bottom;
+  /*object-fit: cover;
+  object-position: bottom;*/
 }
 
 .contenedor p {
@@ -362,15 +355,16 @@ card_section
 }
 
 /* ----------------------------------------------- Seccion productos -------------------------------------------------------- */
-
 .ProductosProd h2 {
   font-size: 50px;
   color: #fff;
   text-align: center;
 }
+
 .contenedorProductos {
   display: flex;
 }
+
 .contenedorBotonesProductos {
   display: flex;
   flex-flow: column;
@@ -391,7 +385,6 @@ card_section
 /*.ProductosSeccionProductos {
   margin: 100px;
 }*/
-
 .ProductosSeccionProductos h2 {
   font-size: 70px;
   color: #fff;
@@ -399,10 +392,11 @@ card_section
 }
 
 .ProductosSeccionProductos h3 {
- /* font-size: 50px;*/
+  /* font-size: 50px;*/
   color: #fff;
   text-align: center;
 }
+
 .ProductosSeccionProductos p {
   text-align: center;
   margin: 25px 400px;
@@ -417,6 +411,7 @@ card_section
   color: #fff;
   font-size: 40px;
 }
+
 .atencionAlCliente {
   color: #fff;
   display: flex;
@@ -443,14 +438,30 @@ card_section
   font-size: 25px;
   color: #519695;
 }
+
 .navegacion_mobile {
   display: none;
 }
+
+/* ----------------------------------------------- Grid Boostrap -------------------------------------------------------- */
+.container {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.row {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.col-4 {
+  background-color: #519695;
+  border-radius: 50px;
+}
+
 /* ----------------------------------------------- media query -------------------------------------------------------- */
 @media screen and (max-width: 768px) {
-    header {
-        display: none;
-      }
   .contenedor {
     justify-content: center;
     align-items: center;
@@ -468,16 +479,12 @@ card_section
     margin: 0%;
     width: 100%;
   }
-
   .contenedorBotonesProductos {
     margin: 20px 0%;
   }
   /* .navegacion_mobile{
         display: block ;
     } */
-  .navegacion {
-    display: none;
-  }
   .contenedor div.izquierda {
     width: 100%;
   }
@@ -485,44 +492,42 @@ card_section
     width: 100%;
   }
   /* ----------------------------------------------- sacando margin -------------------------------------------------------- */
-  .navegacion{
+  .navegacion {
     margin: 0%;
   }
-  .navegacion ul{
+  .navegacion ul {
     margin: 0%;
   }
-  .navegacion li{
+  .navegacion li {
     margin: 0%;
   }
-  .final ul li{
+  .final ul li {
     margin: 0%;
   }
-
-  .contenedor{
+  .contenedor {
     margin: 0%;
   }
-  .contenedor div.izquierda input{
+  .contenedor div.izquierda input {
     margin: 0%;
   }
-  .contenedorBotonesProductos{
+  .contenedorBotonesProductos {
     margin: 0%;
   }
-  .ProductosSeccionProductos{
+  .ProductosSeccionProductos {
     margin: 0%;
   }
   .ProductosSeccionProductos p {
     margin: 25px 0%;
   }
-  .ProductosSeccionProductos{
+  .ProductosSeccionProductos {
     margin: none;
   }
-   /* ----------------------------------------------- Arreglando el header -------------------------------------------------------- */
+  /* ----------------------------------------------- Arreglando el header -------------------------------------------------------- */
 }
 @media screen and (min-width: 990px) {
   .navegacion {
     height: 100px;
     margin: 0 50px;
     padding: 0 10px;
-
   }
-  }
+}
