@@ -1,0 +1,57 @@
+/* ----------------------------------------------- Parte de arriba -------------------------------------------------------- */
+  /* ----------------------------------------------- sumando boostrap -------------------------------------------------------- */
+  .header{
+    background-color: #48AAA8 !important;
+    z-index: 3;
+  }
+  .navbar{
+    background-color: #48AAA8 !important;
+  }
+  .nav-link:hover{
+    background-color: #146463 !important; 
+    color: #fff !important;
+  }
+  header {
+    position: sticky;
+    top: 0%;
+  }
+  
+  .navegacion {
+    display: flex;
+    background-color: #48AAA8 !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navegacion ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .navegacion li {
+    font-size: 23px;
+    margin: 4px;
+    padding: 5px;
+  }
+  
+  .navegacion li .buscador {
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+  }
+  
+  .navegacion li:hover {
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+  
+  .navegacion li a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 15%;
+  }
+  
+  
