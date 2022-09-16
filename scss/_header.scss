@@ -1,0 +1,58 @@
+@import "_variables";
+.header {
+  background-color: #48AAA8 !important;
+  z-index: 3;
+}
+
+.navbar {
+  background-color: #48AAA8 !important;
+}
+
+.nav-link:hover {
+  background-color: #146463 !important;
+  color: map-get($map: $colores, $key: blanco ) !important;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+}
+
+.navegacion {
+  display: flex;
+  background-color: #48AAA8 !important;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  li {
+    font-size: 23px;
+    margin: 4px;
+    padding: 5px;
+    &:hover {
+      border-top: 3px solid map-get($map: $colores, $key: blanco );
+      border-bottom: 3px solid map-get($map: $colores, $key: blanco );
+    }
+       a {
+      text-decoration: none;
+      color: map-get($map: $colores, $key: blanco );
+      border-radius: 15%;
+      }
+  }
+}
+
+
+
+.navegacion li .buscador {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+}
+
+
+

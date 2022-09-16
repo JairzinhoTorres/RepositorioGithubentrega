@@ -1,0 +1,26 @@
+@import "_variables";
+.background-contacto {
+  background: #5bb3b1;
+  background: linear-gradient(0deg, #3b9b99 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
+  padding-top: 20px;
+}
+
+.formcontacto {
+  background: #5bb3b1;
+  background: linear-gradient(0deg, #5bb3b1 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
+  color: map-get($map: $colores, $key: blanco );
+  padding: 50px;
+  margin: 0 auto;
+  width: 300px;
+  box-shadow: 3px 3px 10px #5bb3b1;
+  div {
+    padding: 15px;
+  }
+  input {
+    border: map-get($map: $colores, $key: blanco );
+  }
+  
+}
+
+
+

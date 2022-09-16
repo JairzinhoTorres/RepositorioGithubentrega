@@ -1,0 +1,153 @@
+/* --------------grid index----------ACLARACION: esto esta comentado porque no uso grid en mi pagina solo flex pero lo dejon aca para saber como se hace grid y no perder esta informacion -----------------------------------
+
+.contenedor_index {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+header {
+  grid-area: header;
+  background-color: #5abbb9;
+}
+
+main {
+  grid-area: main;
+  background-color: #5abbb9;
+}
+
+footer {
+  grid-area: footer;
+
+  background-color: #48aaa8;
+}
+/* ----------------------------------------------- grid servicios -------------------------------------------------------- 
+.contenedor_servicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+header {
+  grid-area: header;
+  background-color: #5abbb9;
+}
+
+main {
+  grid-area: main;
+  background-color: #5abbb9;
+}
+
+footer {
+  grid-area: footer;
+
+  background-color: #48aaa8;
+}
+/* ----------------------------------------------- grid productos -------------------------------------------------------- 
+.contenedor_productos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+header {
+  grid-area: header;
+  background-color: #5abbb9;
+}
+
+main {
+  grid-area: main;
+  background-color: #5abbb9;
+}
+
+footer {
+  grid-area: footer;
+
+  background-color: #48aaa8;
+}
+
+/* ----------------------------------------------- grid atencion al cliente -------------------------------------------------------- 
+.contenedor_atencion_al_cliente {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+header {
+  grid-area: header;
+  background-color: #5abbb9;
+}
+
+main {
+  grid-area: main;
+  background-color: #5abbb9;
+}
+
+footer {
+  grid-area: footer;
+
+  background-color: #48aaa8;
+}
+
+/* ----------------------------------------------- grid contacto -------------------------------------------------------- 
+.contenedor_contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+header {
+  grid-area: header;
+  background-color: #5abbb9;
+}
+
+main {
+  grid-area: main;
+  background-color: #5abbb9;
+}
+
+footer {
+  grid-area: footer;
+
+  background-color: #48aaa8;
+}
+/* ----------------------------------------------- grid noticia -------------------------------------------------------- 
+.contenedor_noticia {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+header {
+  grid-area: header;
+  background-color: #5abbb9;
+}
+
+main {
+  grid-area: main;
+  background-color: #5abbb9;
+}
+
+footer {
+  grid-area: footer;
+
+  background-color: #48aaa8;
+}

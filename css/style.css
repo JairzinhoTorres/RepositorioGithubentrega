@@ -1,169 +1,28 @@
-body {
-  background-color: #5eb6b5;
+.final {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #48AAA8;
+  height: 175px;
+  justify-content: center;
+  align-items: center;
   color: #fff;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  list-style: none;
+.final ul {
+  display: flex;
+}
+.final li {
+  margin: 4px;
+  padding: 5px;
 }
 
-/* ----------------------------------------------- grid index -------------------------------------------------------- 
-.contenedor_index {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-}
-header {
-  grid-area: header;
-  background-color: #5abbb9;
+.final a img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #5BB3B1;
+  padding: 10px;
 }
 
-main {
-  grid-area: main;
-  background-color: #5abbb9;
-}
-
-footer {
-  grid-area: footer;
-
-  background-color: #48aaa8;
-}
-/* ----------------------------------------------- grid servicios -------------------------------------------------------- 
-.contenedor_servicios {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-}
-header {
-  grid-area: header;
-  background-color: #5abbb9;
-}
-
-main {
-  grid-area: main;
-  background-color: #5abbb9;
-}
-
-footer {
-  grid-area: footer;
-
-  background-color: #48aaa8;
-}
-/* ----------------------------------------------- grid productos -------------------------------------------------------- 
-.contenedor_productos {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-}
-header {
-  grid-area: header;
-  background-color: #5abbb9;
-}
-
-main {
-  grid-area: main;
-  background-color: #5abbb9;
-}
-
-footer {
-  grid-area: footer;
-
-  background-color: #48aaa8;
-}
-
-/* ----------------------------------------------- grid atencion al cliente -------------------------------------------------------- 
-.contenedor_atencion_al_cliente {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-}
-header {
-  grid-area: header;
-  background-color: #5abbb9;
-}
-
-main {
-  grid-area: main;
-  background-color: #5abbb9;
-}
-
-footer {
-  grid-area: footer;
-
-  background-color: #48aaa8;
-}
-
-/* ----------------------------------------------- grid contacto -------------------------------------------------------- 
-.contenedor_contacto {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-}
-header {
-  grid-area: header;
-  background-color: #5abbb9;
-}
-
-main {
-  grid-area: main;
-  background-color: #5abbb9;
-}
-
-footer {
-  grid-area: footer;
-
-  background-color: #48aaa8;
-}
-/* ----------------------------------------------- grid noticia -------------------------------------------------------- 
-.contenedor_noticia {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-}
-header {
-  grid-area: header;
-  background-color: #5abbb9;
-}
-
-main {
-  grid-area: main;
-  background-color: #5abbb9;
-}
-
-footer {
-  grid-area: footer;
-
-  background-color: #48aaa8;
-}
-/* ----------------------------------------------- Parte de arriba -------------------------------------------------------- */
-/* ----------------------------------------------- sumando boostrap -------------------------------------------------------- */
 .header {
   background-color: #48AAA8 !important;
   z-index: 3;
@@ -189,7 +48,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 .navegacion ul {
   display: flex;
   list-style: none;
@@ -197,11 +55,19 @@ header {
   padding: 0;
   align-items: center;
 }
-
 .navegacion li {
   font-size: 23px;
   margin: 4px;
   padding: 5px;
+}
+.navegacion li:hover {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+.navegacion li a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 15%;
 }
 
 .navegacion li .buscador {
@@ -210,62 +76,6 @@ header {
   border-radius: 10%;
 }
 
-.navegacion li:hover {
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-}
-
-.navegacion li a {
-  text-decoration: none;
-  color: #fff;
-  border-radius: 15%;
-}
-
-/* ----------------------------------------------- footer -------------------------------------------------------- */
-.final {
-  display: flex;
-  flex-direction: column-reverse;
-  background-color: #48AAA8;
-  height: 175px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-.final ul {
-  display: flex;
-}
-
-.final ul li {
-  margin: 4px;
-  padding: 5px;
-}
-
-.final a img {
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  background-color: #5BB3B1;
-  padding: 10px;
-}
-
-/* ----------------------------------------------- Card en index -------------------------------------------------------- */
-.card_section {
-  display: flex;
-  justify-content: center;
-  margin: 75px;
-}
-
-.imagen_de_la_card {
-  width: 100%;
-  padding: auto;
-}
-
-.colores_card {
-  background-color: #5ABBB9;
-}
-
-/* ----------------------------------------------- Modificacion ventana contacto -------------------------------------------------------- */
 .background-contacto {
   background: #5bb3b1;
   background: linear-gradient(0deg, #3b9b99 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
@@ -281,170 +91,47 @@ header {
   width: 300px;
   box-shadow: 3px 3px 10px #5bb3b1;
 }
-
 .formcontacto div {
   padding: 15px;
 }
-
 .formcontacto input {
   border: #fff;
 }
 
-/* ----------------------------------------------- Servicios -------------------------------------------------------- */
-.contenedor {
-  display: flex;
-  align-items: center;
-  margin: 20px 50px;
-  /* -------- flex-wrap tira para abajo los hijos cuando ya no hay espacio ------- */
-  flex-wrap: wrap;
-}
-
-.contenedor h2 {
+body {
+  background-color: #5eb6b5;
   color: #fff;
 }
 
-.contenedor > div {
-  padding: 0 10px;
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
 }
 
-.contenedor div.izquierda {
-  width: 40%;
+.background-contacto {
+  background: #5bb3b1;
+  background: linear-gradient(0deg, #3b9b99 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
+  padding-top: 20px;
 }
 
-.contenedor div.izquierda h2 {
-  font-size: 50px;
-}
-
-.contenedor div.izquierda input {
-  font-size: 20px;
-  margin-right: 20px;
-  padding: 5px;
-  border: none;
-  border-radius: 50px;
-  background-color: #519695;
+.formcontacto {
+  background: #5bb3b1;
+  background: linear-gradient(0deg, #5bb3b1 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
   color: #fff;
-  /*transition: width 3s;
-  transition-delay: 1s;*/
-}
-
-.contenedorBotones {
-  display: flex;
-}
-
-.contenedor div.izquierda input:hover {
+  padding: 50px;
+  margin: 0 auto;
   width: 300px;
+  box-shadow: 3px 3px 10px #5bb3b1;
+}
+.formcontacto div {
+  padding: 15px;
+}
+.formcontacto input {
+  border: #fff;
 }
 
-.contenedor div.derecha {
-  width: 55%;
-  /* transition: width 2s, height 2s, transform 2s;*/
-}
-
-.contenedor img {
-  width: 100%;
-  /*argin: 0 40px;*/
-  height: 700px;
-  /*object-fit: cover;
-  object-position: bottom;*/
-}
-
-.contenedor p {
-  line-height: 2;
-  color: #fff;
-  font-size: 22px;
-}
-
-/* ----------------------------------------------- Seccion productos -------------------------------------------------------- */
-.ProductosProd h2 {
-  font-size: 50px;
-  color: #fff;
-  text-align: center;
-}
-
-.contenedorProductos {
-  display: flex;
-}
-
-.contenedorBotonesProductos {
-  display: flex;
-  flex-flow: column;
-  width: 50%;
-  margin: 20px 50px;
-}
-
-.contenedorProductos input {
-  padding: 20px;
-  border: none;
-  border-radius: 50px;
-  background-color: #519695;
-  color: #fff;
-  font-size: 20px;
-}
-
-/* ----------------------------------------------- Seccion productos otra pagina -------------------------------------------------------- */
-/*.ProductosSeccionProductos {
-  margin: 100px;
-}*/
-.ProductosSeccionProductos h2 {
-  font-size: 70px;
-  color: #fff;
-  text-align: center;
-}
-
-.ProductosSeccionProductos h3 {
-  /* font-size: 50px;*/
-  color: #fff;
-  text-align: center;
-}
-
-.ProductosSeccionProductos p {
-  text-align: center;
-  margin: 25px 400px;
-}
-
-.ProductosSeccionProductos input {
-  margin-top: 20px;
-  padding: 20px;
-  border: none;
-  border-radius: 50px;
-  background-color: #519695;
-  color: #fff;
-  font-size: 40px;
-}
-
-.atencionAlCliente {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.atencionAlCliente h2 {
-  font-size: 70px;
-}
-
-.atencionAlCliente p {
-  margin: 20px 0px;
-}
-
-.atencionAlCliente input {
-  padding: 20px;
-  border: none;
-  border-radius: 50px;
-  background-color: #fff;
-  margin-top: 30px;
-  font-size: 25px;
-  color: #519695;
-}
-
-.navegacion_mobile {
-  display: none;
-}
-
-/* ----------------------------------------------- Grid Boostrap -------------------------------------------------------- */
 .container {
   color: #fff;
   font-size: 40px;
@@ -461,7 +148,6 @@ header {
   border-radius: 50px;
 }
 
-/* ----------------------------------------------- media query -------------------------------------------------------- */
 @media screen and (max-width: 768px) {
   .contenedor {
     justify-content: center;
@@ -492,7 +178,6 @@ header {
   .contenedor div.derecha {
     width: 100%;
   }
-  /* ----------------------------------------------- sacando margin -------------------------------------------------------- */
   .navegacion {
     margin: 0%;
   }
@@ -523,7 +208,6 @@ header {
   .ProductosSeccionProductos {
     margin: none;
   }
-  /* ----------------------------------------------- Arreglando el header -------------------------------------------------------- */
 }
 @media screen and (min-width: 990px) {
   .navegacion {
@@ -531,6 +215,210 @@ header {
     margin: 0 50px;
     padding: 0 10px;
   }
+}
+.card_section {
+  display: flex;
+  justify-content: center;
+  margin: 75px;
+}
+
+.imagen_de_la_card {
+  width: 100%;
+  padding: auto;
+}
+
+.colores_card {
+  background-color: #5ABBB9;
+}
+
+.titulo-1 {
+  font-size: 25px;
+  padding-top: 70px;
+}
+
+.titulo-1 h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.contenedor-servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.productos {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 1px 1px 10px rgb(155, 155, 155);
+  margin: 10px;
+}
+
+.productos-1 img {
+  width: 150px;
+  box-shadow: 1px 1px 10px #5f5f5f;
+}
+
+.productos h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(253, 253, 253);
+}
+
+.servicios a, .productos a {
+  text-decoration: none;
+}
+
+.servicios p, .productos p {
+  padding: 20px;
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+}
+
+.ProductosProd h2 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.contenedorProductos {
+  display: flex;
+}
+
+.contenedorBotonesProductos {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  margin: 20px 50px;
+}
+
+.contenedorProductos input {
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #519695;
+  color: #fff;
+  font-size: 20px;
+}
+
+/*.ProductosSeccionProductos {
+  margin: 100px;
+}*/
+.ProductosSeccionProductos h2 {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+}
+.ProductosSeccionProductos h3 {
+  /* font-size: 50px;*/
+  color: #fff;
+  text-align: center;
+}
+.ProductosSeccionProductos p {
+  text-align: center;
+  margin: 25px 400px;
+}
+.ProductosSeccionProductos input {
+  margin-top: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #519695;
+  color: #fff;
+  font-size: 40px;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  margin: 20px 50px;
+  /* -------- flex-wrap tira para abajo los hijos cuando ya no hay espacio ------- */
+  flex-wrap: wrap;
+}
+.contenedor h2 {
+  color: #fff;
+}
+.contenedor img {
+  width: 100%;
+  /*argin: 0 40px;*/
+  height: 700px;
+  /*object-fit: cover;
+  object-position: bottom;*/
+}
+.contenedor p {
+  line-height: 2;
+  color: #fff;
+  font-size: 22px;
+}
+
+.contenedor > div {
+  padding: 0 10px;
+  width: 100%;
+}
+
+.contenedor div.izquierda {
+  width: 40%;
+}
+
+.contenedor div.izquierda h2 {
+  font-size: 50px;
+}
+
+.contenedor div.izquierda input {
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  background-color: #519695;
+  color: #fff;
+  /*transition: width 3s;
+  transition-delay: 1s;*/
+}
+.contenedor div.izquierda input:hover {
+  width: 300px;
+}
+
+.contenedorBotones {
+  display: flex;
+}
+
+.contenedor div.derecha {
+  width: 55%;
+  /* transition: width 2s, height 2s, transform 2s;*/
+}
+
+.atencionAlCliente {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.atencionAlCliente h2 {
+  font-size: 70px;
+}
+.atencionAlCliente p {
+  margin: 20px 0px;
+}
+.atencionAlCliente input {
+  padding: 13px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #519695;
+}
+
+.navegacion_mobile {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
