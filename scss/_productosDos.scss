@@ -1,34 +1,26 @@
 @import "_variables";
-/*.ProductosSeccionProductos {
-  margin: 100px;
-}*/
+
 .ProductosSeccionProductos {
-    h2 {
+  h2 {
     font-size: 70px;
-    color: map-get($map: $colores, $key: blanco );
-    text-align: center;
-    }
-    h3 {
-      /* font-size: 50px;*/
-      color: map-get($map: $colores, $key: blanco );
-      text-align: center;
-    }
-    p {
-      text-align: center;
-      margin: 25px 400px;
-    }
-    input {
-      margin-top: 20px;
-      padding: 20px;
-      border: none;
-      border-radius: 50px;
-      background-color: map-get($map: $colores, $key: turquesaUno );
-      color: map-get($map: $colores, $key: blanco );
-      font-size: 40px;
-    }
+    color: map-get($map: $colores, $key: blanco);
+    @include text-aling;
   }
-  
-
-
-
-  
+  h3 {
+    color: map-get($map: $colores, $key: blanco);
+    @include text-aling;
+  }
+  p {
+    @include text-aling;
+    margin: 25px 400px;
+  }
+  input {
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: map-get($map: $colores, $key: turquesausno);
+    color: map-get($map: $colores, $key: blanco);
+    font-size: 40px;
+  }
+}

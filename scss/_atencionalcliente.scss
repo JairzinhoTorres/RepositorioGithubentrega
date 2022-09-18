@@ -1,29 +1,26 @@
 @import "_variables";
 
 .atencionAlCliente {
-    color: map-get($map: $colores, $key: blanco );
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    h2 {
-      font-size: 70px;
-    }
-    p {
-      margin: 20px 0px;
-    }
-    input {
-      padding: 13px;
-      border: none;
-      border-radius: 50px;
-      background-color: map-get($map: $colores, $key: blanco );
-      margin-top: 30px;
-      font-size: 25px;
-      color: map-get($map: $colores, $key: turquesaUno );
-    }
+  color: map-get($map: $colores, $key: blanco);
+  @extend %categoriastres;
+  flex-direction: column;
+  h2 {
+    font-size: 70px;
   }
-  
-  .navegacion_mobile {
-    display: none;
+  p {
+    margin: 20px 0px;
   }
+  input {
+    padding: 13px;
+    border: none;
+    border-radius: 50px;
+    background-color: map-get($map: $colores, $key: blanco);
+    margin-top: 30px;
+    font-size: 25px;
+    color: map-get($map: $colores, $key: turquesauno);
+  }
+}
+
+.navegacion_mobile {
+  display: none;
+}

@@ -1,27 +1,26 @@
 @import "_variables";
 .ProductosProd h2 {
-    font-size: 50px;
-    color: map-get($map: $colores, $key: blanco );
-    text-align: center;
-  }
-  
-  .contenedorProductos {
-    display: flex;
-    
-  }
-  
-  .contenedorBotonesProductos {
-    display: flex;
-    flex-flow: column;
-    width: 50%;
-    margin: 20px 50px;
-  }
-  
-  .contenedorProductos input {
-    padding: 20px;
-    border: none;
-    border-radius: 50px;
-    background-color: map-get($map: $colores, $key: turquesaUno );
-    color: map-get($map: $colores, $key: blanco );
-    font-size: 20px;
-  }
+  font-size: 50px;
+  color: map-get($map: $colores, $key: blanco);
+  @include text-aling;
+}
+
+.contenedorProductos {
+  @include display-flex;
+}
+
+.contenedorBotonesProductos {
+  @include display-flex;
+  flex-flow: column;
+  width: 50%;
+  margin: 20px 50px;
+}
+
+.contenedorProductos input {
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: map-get($map: $colores, $key: turquesauno);
+  color: map-get($map: $colores, $key: blanco);
+  font-size: 20px;
+}

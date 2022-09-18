@@ -1,14 +1,13 @@
 @import "_variables";
-.card_section{
-  display: flex;
-  justify-content: center;
+.card_section {
+  @extend %categorias;
   margin: 75px;
 }
 
-.imagen_de_la_card{
+.imagen_de_la_card {
   width: 100%;
   padding: auto;
 }
-.colores_card{
-  background-color: #5ABBB9;
+.colores_card {
+  background-color: map-get($map: $colores, $key: turquesacinco);
 }

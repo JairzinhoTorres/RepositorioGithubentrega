@@ -1,9 +1,19 @@
-.final {
+.contenedor, .contenedor-servicios, .card_section, .final {
   display: flex;
-  flex-direction: column-reverse;
-  background-color: #48AAA8;
-  height: 175px;
   justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.final {
+  flex-direction: column-reverse;
+  background-color: #48aaa8;
+  height: 175px;
   align-items: center;
   color: #fff;
 }
@@ -19,17 +29,29 @@
   height: 30px;
   width: 30px;
   border-radius: 100%;
-  background-color: #5BB3B1;
+  background-color: #5bb3b1;
   padding: 10px;
 }
 
+.contenedor, .contenedor-servicios, .card_section, .final {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .header {
-  background-color: #48AAA8 !important;
+  background-color: #48aaa8 !important;
   z-index: 3;
 }
 
 .navbar {
-  background-color: #48AAA8 !important;
+  background-color: #48aaa8 !important;
 }
 
 .nav-link:hover {
@@ -44,9 +66,9 @@ header {
 
 .navegacion {
   display: flex;
-  background-color: #48AAA8 !important;
+  background-color: #48aaa8 !important;
   justify-content: space-between;
-  align-items: center;
+  text-align: center;
 }
 .navegacion ul {
   display: flex;
@@ -76,6 +98,18 @@ header {
   border-radius: 10%;
 }
 
+.contenedor, .contenedor-servicios, .card_section, .final {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .background-contacto {
   background: #5bb3b1;
   background: linear-gradient(0deg, #3b9b99 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
@@ -96,6 +130,23 @@ header {
 }
 .formcontacto input {
   border: #fff;
+}
+
+.enviar {
+  background-color: #146463;
+  border-radius: 15px;
+}
+
+.contenedor, .contenedor-servicios, .card_section, .final {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 body {
@@ -110,6 +161,18 @@ body {
   list-style: none;
 }
 
+.contenedor, .contenedor-servicios, .card_section, .final {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .background-contacto {
   background: #5bb3b1;
   background: linear-gradient(0deg, #3b9b99 0%, #146463 36%, #5a8382 100%, rgb(243, 243, 243) 100%);
@@ -130,6 +193,23 @@ body {
 }
 .formcontacto input {
   border: #fff;
+}
+
+.enviar {
+  background-color: #146463;
+  border-radius: 15px;
+}
+
+.contenedor, .contenedor-servicios, .card_section, .final {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -146,6 +226,18 @@ body {
 .col-4 {
   background-color: #519695;
   border-radius: 50px;
+}
+
+.contenedor, .contenedor-servicios, .card_section, .final {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -169,9 +261,6 @@ body {
   .contenedorBotonesProductos {
     margin: 20px 0%;
   }
-  /* .navegacion_mobile{
-        display: block ;
-    } */
   .contenedor div.izquierda {
     width: 100%;
   }
@@ -216,9 +305,19 @@ body {
     padding: 0 10px;
   }
 }
-.card_section {
+.contenedor, .contenedor-servicios, .card_section, .final {
   display: flex;
   justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card_section {
   margin: 75px;
 }
 
@@ -228,11 +327,23 @@ body {
 }
 
 .colores_card {
-  background-color: #5ABBB9;
+  background-color: #5abbb9;
+}
+
+.contenedor, .contenedor-servicios, .final, .card_section {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .titulo-1 {
-  font-size: 25px;
+  font-size: 10px;
   padding-top: 70px;
 }
 
@@ -242,9 +353,7 @@ body {
 }
 
 .contenedor-servicios {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
   padding-top: 20px;
   padding-bottom: 150px;
   padding-left: 80px;
@@ -267,17 +376,32 @@ body {
 .productos h1 {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 35px;
   color: rgb(253, 253, 253);
 }
 
-.servicios a, .productos a {
+.servicios a,
+.productos a {
   text-decoration: none;
 }
 
-.servicios p, .productos p {
+.servicios p,
+.productos p {
   padding: 20px;
   color: rgb(253, 253, 253);
   font-size: 18px;
+}
+
+.contenedor, .final, .card_section, .contenedor-servicios {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .ProductosProd h2 {
@@ -306,16 +430,24 @@ body {
   font-size: 20px;
 }
 
-/*.ProductosSeccionProductos {
-  margin: 100px;
-}*/
+.contenedor, .final, .card_section, .contenedor-servicios {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .ProductosSeccionProductos h2 {
   font-size: 70px;
   color: #fff;
   text-align: center;
 }
 .ProductosSeccionProductos h3 {
-  /* font-size: 50px;*/
   color: #fff;
   text-align: center;
 }
@@ -328,16 +460,24 @@ body {
   padding: 20px;
   border: none;
   border-radius: 50px;
-  background-color: #519695;
   color: #fff;
   font-size: 40px;
 }
 
-.contenedor {
+.contenedor, .final, .card_section, .contenedor-servicios {
   display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.contenedor {
   margin: 20px 50px;
-  /* -------- flex-wrap tira para abajo los hijos cuando ya no hay espacio ------- */
   flex-wrap: wrap;
 }
 .contenedor h2 {
@@ -345,10 +485,7 @@ body {
 }
 .contenedor img {
   width: 100%;
-  /*argin: 0 40px;*/
   height: 700px;
-  /*object-fit: cover;
-  object-position: bottom;*/
 }
 .contenedor p {
   line-height: 2;
@@ -377,8 +514,6 @@ body {
   border-radius: 50px;
   background-color: #519695;
   color: #fff;
-  /*transition: width 3s;
-  transition-delay: 1s;*/
 }
 .contenedor div.izquierda input:hover {
   width: 300px;
@@ -390,16 +525,23 @@ body {
 
 .contenedor div.derecha {
   width: 55%;
-  /* transition: width 2s, height 2s, transform 2s;*/
+}
+
+.final, .card_section, .contenedor-servicios, .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .atencionAlCliente {
   color: #fff;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 .atencionAlCliente h2 {
   font-size: 70px;
@@ -419,6 +561,56 @@ body {
 
 .navegacion_mobile {
   display: none;
+}
+
+.final, .card_section, .contenedor-servicios, .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.final, .card_section, .contenedor-servicios, .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.atencionAlCliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cardcard {
+  padding: 40px;
+  justify-content: space-around;
+  margin: 0px 300px;
+  color: #fff;
+}
+.cardcard h5 {
+  font-size: 40px;
+}
+.cardcard .cardes {
+  background-color: #5eb6b5;
+}
+.cardcard .colorgo {
+  background-color: #5eb6b5;
+}
+.cardcard .colorgos {
+  background-color: #48aaa8;
+}
+.cardcard .card-title {
+  text-align: center;
+}
+
+.ProductosSeccionProductos h2 {
+  padding-top: 110px;
 }
 
 /*# sourceMappingURL=style.css.map */

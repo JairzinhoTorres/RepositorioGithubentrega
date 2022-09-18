@@ -1,25 +1,25 @@
 @import "_variables";
 .final {
+  @extend %categorias;
+  flex-direction: column-reverse;
+  background-color: map-get($map: $colores, $key: turquesatres);
+  height: 175px;
+
+  @include aling-item;
+  color: map-get($map: $colores, $key: blanco);
+  ul {
     display: flex;
-    flex-direction: column-reverse;
-    background-color: #48AAA8;
-    height: 175px;
-    justify-content: center;
-    align-items: center;
-    color: map-get($map: $colores, $key: blanco );
-        ul {
-        display: flex;
-      }
-             li {
-        margin: 4px;
-        padding: 5px;
-      }
   }
-  
-  .final a img {
-    height: 30px;
-    width: 30px;
-    border-radius: 100%;
-    background-color: #5BB3B1;
-    padding: 10px;
+  li {
+    margin: 4px;
+    padding: 5px;
   }
+}
+
+.final a img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: map-get($map: $colores, $key: turquesados);
+  padding: 10px;
+}

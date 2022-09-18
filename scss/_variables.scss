@@ -1,4 +1,41 @@
 $colores: (
-    blanco: #fff,
-    turquesaUno:#519695
+  blanco: #fff,
+  blancodos: rgb(253, 253, 253),
+  blancotres: rgb(155, 155, 155),
+  gris: #5f5f5f,
+  turquesauno: #519695,
+  turquesados: #5bb3b1,
+  turquesatres: #48aaa8,
+  turquesacuatro: #146463,
+  turquesacinco: #5abbb9,
+  turquesaseis: #5eb6b5,
+  black:black,
 );
+%categorias {
+  display: flex;
+  justify-content: center;
+}
+%categoriasdos {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+%categoriastres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@mixin display-flex {
+  display: flex;
+}
+@mixin text-aling {
+  text-align: center;
+}
+@mixin aling-item {
+  align-items: center;
+}
+@mixin justify-content {
+  justify-content: center;
+}
