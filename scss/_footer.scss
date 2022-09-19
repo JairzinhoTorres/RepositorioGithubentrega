@@ -15,11 +15,13 @@
     padding: 5px;
   }
 }
-
-.final a img {
-  height: 30px;
-  width: 30px;
+.final a {
   border-radius: 100%;
   background-color: map-get($map: $colores, $key: turquesados);
   padding: 10px;
+  display: block;
+  img {
+    height: 30px;
+    width: 30px;
+  }
 }

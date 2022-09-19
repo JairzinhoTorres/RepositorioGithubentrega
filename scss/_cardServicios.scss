@@ -1,27 +1,34 @@
 @import "_variables";
-.cardcard{
-    padding:40px;
-    justify-content: space-around;
-    margin: 0px 300px;
-    color: map-get($map: $colores, $key: blanco );
-    h5{
-        font-size: 40px;
-    }
-    .cardes{
-        background-color:map-get($map: $colores, $key: turquesaseis )
-    }
-    .colorgo{
-        background-color:map-get($map: $colores, $key: turquesaseis )
-    }
-    .colorgos{
-        background-color:map-get($map: $colores, $key: turquesatres )
-    }
-    .card-title{
-        @include text-aling;
-    }
+.cardcard {
+  padding: 40px;
+  justify-content: space-around;
+  color: map-get($map: $colores, $key: blanco);
+  h5 {
+    font-size: 40px;
+  }
+  .cardes {
+    background-color: map-get($map: $colores, $key: turquesaseis);
+  }
+  .colorgo {
+    background-color: map-get($map: $colores, $key: turquesaseis);
+    object-fit: contain;
+  }
+  .colorgos {
+    background-color: map-get($map: $colores, $key: turquesatres);
+  }
+  .card-title {
+    @include text-aling;
+  }
 }
-.ProductosSeccionProductos{
-    h2{
-        padding-top: 110px;
-    }
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.ProductosSeccionProductos {
+  h2 {
+    padding-top: 110px;
+  }
 }
